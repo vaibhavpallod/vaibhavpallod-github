@@ -5,65 +5,65 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "AWS Cloud Technical EssentialsData Science",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.coursera.org/learn/aws-cloud-technical-essentials",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
-  },
-  {
-    title: "Machine Learning",
+    title: "Programming Foundations with JavaScript, HTML and CSS",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "https://www.coursera.org/learn/duke-programming-web",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
+    title: "Technical Support Fundamentals",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+    moocLink: "https://www.coursera.org/learn/technical-support-fundamentals",
   },
+  // {
+  //   title: "Eduthon",
+  //   cardImage: "assets/images/education-page/eduthon.png",
+  //   moocLink: "https://eduthon.devfolio.co/",
+  // },
   {
-    title: "NodeJS, Express and MongoDB",
+    title: "Course Certificate for The Bits and Bytes of Computer Networking",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    moocLink: "https://www.coursera.org/learn/computer-networking",
   },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+  // {
+  //   title: "Javascript",
+  //   cardImage: "assets/images/education-page/udacity.svg",
+  //   moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+  // },
+  // {
+  //   title: "Bootstrap 4",
+  //   cardImage: "assets/images/education-page/udemy.svg",
+  //   moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+  // },
+  // {
+  //   title: "Intro to React",
+  //   cardImage: "assets/images/education-page/edx.svg",
+  //   moocLink: "https://www.edx.org/learn/reactjs",
+  // },
+  // {
+  //   title: "Intro to React Native",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+  // },
+  // {
+  //   title: "NodeJS, Express and MongoDB",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+  // },
+  // {
+  //   title: "XML-AJAX",
+  //   cardImage: "assets/images/education-page/udemy.svg",
+  //   moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+  // },
+  // {
+  //   title: "Data Structures & Algorithms",
+  //   cardImage: "assets/images/education-page/udacity.svg",
+  //   moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+  // },
 ];
 
 const experience = [

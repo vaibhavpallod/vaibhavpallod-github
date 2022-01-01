@@ -4,115 +4,116 @@ const researchTable = document.querySelector(".main");
 
 const research = [
     {
-        title : "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
-        authors : "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup1",
-        image : "assets/images/research-page/inteferenceNetwork.png",
+        title : "Blockchain based solar energy trading",
+        authors : " Vaibhav Pallod, Ajinkya Brahmankar, Prathmesh Kulkarni, Sanket Patil",
+        conferences : "IRSEC'21: 9th International Renewable and Sustainable Energy Conference",
+        researchYr : 2021,
+        // citebox : "popup1",
+        image : "assets/images/research-page/research1.png",
+        
         citation: {
-            vancouver: "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
+            vancouver: "Pallod, V., Brahmankar, A., Patil, S., & Kulkarni, P. (2021). 'Blockchain based solar energy trading.' IRSEC'21: 9th International Renewable and Sustainable Energy Conference."
         },
-        abstract: "This is currently left empty and this can be considered as a dummy data 1",
-        absbox: "absPopup1"
+        abstract: "Depletion of non-renewable energy resources is having an adverse effect on the planet. Therefore, various governments have begun enforcing use of renewable energy to meet the rising electricity demands. Due to environmental and resiliency benefits, distributed energy resources are a potential solution for meeting future electricity demand. Combining the flow of the energy along with networks forms the Energy Internet. The survey provides a concise review of smart grid, blockchain architecture and their role in distributed energy trading. Solar energy has been the primary focus as the renewable energy resource for implementation purposes. Smart grid ensures an efficient distribution of the power, hold low losses, maintain degree of quality, and the safety of power supply. Such a setup has nodes including power sources and arrangements for transferring power to other nodes as well. It has various parameters that are of primary concern like power supply control, power flow execution, limiting the electricity as per the top layer transactions with help of monitoring devices, etc. Microcontrollers are responsible for interacting with the network and accessing data on it. Blockchain technology has been largely confined to finance and cryptocurrency. Recently, the technology has emerged as a distributed ledger technology which allows exchanges among participants without the need for a central market entity. The blockchain gives immutability of the transactions, which make sure each transaction among peers will be executed. It additionally gives immutability to transaction history, which may be used for audit or fixing a transaction dispute. Transaction executions are performed using smart contracts. Synchronization of the logical and physical layer between a pair of nodes forms the crux of the survey",
+        // absbox: "absPopup1"
     },
 
-    {
-        title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
-        authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup2",
-        image : "assets/images/research-page/crossLingual.png",
-        citation: {
-            vancouver: "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 2",
-        absbox: "absPopup2"
-    },
+    // {
+    //     title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+    //     authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+    //     conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
+    //     researchYr : 2020,
+    //     citebox : "popup2",
+    //     image : "assets/images/research-page/crossLingual.png",
+    //     citation: {
+    //         vancouver: "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre. A Call for More Rigor in Unsupervised Cross-lingual Learning. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
+    //     },
+    //     abstract: "This is currently left empty and this can be considered as a dummy data 2",
+    //     absbox: "absPopup2"
+    // },
 
-    {
-        title : "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-        authors : "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup3",
-        image : "assets/images/research-page/wordRepresentation.png",
-        citation: {
-            vancouver: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 3",
-        absbox: "absPopup3"
-    },
+    // {
+    //     title : "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
+    //     authors : "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
+    //     conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
+    //     researchYr : 2020,
+    //     citebox : "popup3",
+    //     image : "assets/images/research-page/wordRepresentation.png",
+    //     citation: {
+    //         vancouver: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
+    //     },
+    //     abstract: "This is currently left empty and this can be considered as a dummy data 3",
+    //     absbox: "absPopup3"
+    // },
 
-    {
-        title : "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-        authors : "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "popup4",
-        image : "assets/images/research-page/dialogueState.png",
-        citation: {
-            vancouver: "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 4",
-        absbox: "absPopup4"
-    },
+    // {
+    //     title : "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
+    //     authors : "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
+    //     conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
+    //     researchYr : 2020,
+    //     citebox : "popup4",
+    //     image : "assets/images/research-page/dialogueState.png",
+    //     citation: {
+    //         vancouver: "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou. A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
+    //     },
+    //     abstract: "This is currently left empty and this can be considered as a dummy data 4",
+    //     absbox: "absPopup4"
+    // },
 
-    {
-        title : "Dual Super-Resolution Learning for Semantic Segmentation",
-        authors : "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup5",
-        image : "assets/images/research-page/semanticSegmentation.png",
-        citation: {
-            vancouver: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 5",
-        absbox: "absPopup5"
-    },
+    // {
+    //     title : "Dual Super-Resolution Learning for Semantic Segmentation",
+    //     authors : "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
+    //     conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    //     researchYr : 2020,
+    //     citebox : "popup5",
+    //     image : "assets/images/research-page/semanticSegmentation.png",
+    //     citation: {
+    //         vancouver: "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi. Dual Super-Resolution Learning for Semantic Segmentation. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
+    //     },
+    //     abstract: "This is currently left empty and this can be considered as a dummy data 5",
+    //     absbox: "absPopup5"
+    // },
 
-    {
-        title : "Deep Unfolding Network for Image Super-Resolution",
-        authors : "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup6",
-        image : "assets/images/research-page/deepNetwork.png",
-        citation: {
-            vancouver: "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 6",
-        absbox: "absPopup6"
-    },
+    // {
+    //     title : "Deep Unfolding Network for Image Super-Resolution",
+    //     authors : "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
+    //     conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    //     researchYr : 2020,
+    //     citebox : "popup6",
+    //     image : "assets/images/research-page/deepNetwork.png",
+    //     citation: {
+    //         vancouver: "Zhang, Kai and Van Gool, Luc and Timofte, Radu. Deep Unfolding Network for Image Super-Resolution. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
+    //     },
+    //     abstract: "This is currently left empty and this can be considered as a dummy data 6",
+    //     absbox: "absPopup6"
+    // },
 
-    {
-        title : "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-        authors : "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup7",
-        image : "assets/images/research-page/imageDecomposition.png",
-        citation: {
-            vancouver: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 7",
-        absbox: "absPopup7"
-    },
-    {
-        title : "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-        authors : "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "popup8",
-        image : "assets/images/research-page/neuralNetworks.jpg",
-        citation: {
-            vancouver: "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
-        },
-        abstract: "This is currently left empty and this can be considered as a dummy data 8",
-        absbox: "absPopup8"
-    }
+    // {
+    //     title : "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
+    //     authors : "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
+    //     conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    //     researchYr : 2020,
+    //     citebox : "popup7",
+    //     image : "assets/images/research-page/imageDecomposition.png",
+    //     citation: {
+    //         vancouver: "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng. Unsupervised Learning for Intrinsic Image Decomposition From a Single Image. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
+    //     },
+    //     abstract: "This is currently left empty and this can be considered as a dummy data 7",
+    //     absbox: "absPopup7"
+    // },
+    // {
+    //     title : "Forward and Backward Information Retention for Accurate Binary Neural Networks",
+    //     authors : "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
+    //     conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    //     researchYr : 2020,
+    //     citebox : "popup8",
+    //     image : "assets/images/research-page/neuralNetworks.jpg",
+    //     citation: {
+    //         vancouver: "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan. Forward and Backward Information Retention for Accurate Binary Neural Networks. IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2020."
+    //     },
+    //     abstract: "This is currently left empty and this can be considered as a dummy data 8",
+    //     absbox: "absPopup8"
+    // }
 ];
 AOS.init();   
 const fillData = () => {

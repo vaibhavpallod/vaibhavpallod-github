@@ -297,6 +297,7 @@ a.socialicon {
      }
    }
 
+
 /*
 --------------------------
    GITHUB MICROANIMATION
@@ -351,6 +352,17 @@ a.socialicon {
     }
   }
   
+.codechef-icon{
+  width: 40px;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+.leetcode-icon{
+  width: 40px;
+  margin-left: 12px;
+  margin-top: 10px;
+
+}
   /*
   --------------------------
      CODEFORCES MICROANIMATION

@@ -289,16 +289,24 @@ body {
 .imgRes {
   width: 14em;
   height: 14em;
+  
 }
 
 .imgResponsive {
   display: none;
   margin-bottom: 1em;
+  
 }
 
 .imgCol .rImg {
+  /* object-fit: fill; */
+  overflow: auto;
+  justify-content:center;
+  align-items:center;
   width: 335px;
-  height: 335px;
+  height: auto;
+  max-height: 100%;
+
 }
 
 @media only screen and (max-width: 711px) {
@@ -310,6 +318,10 @@ body {
   }
   .imgCol {
     display: none;
+  /* margin-left: auto;
+  margin-right: auto;
+  justify-content: center; */
+  
   }
 }
 
